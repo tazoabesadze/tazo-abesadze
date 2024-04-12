@@ -70,8 +70,9 @@
 # filtered_strings = starting_with_a(list)
 # print(filtered_strings)
 
-# # 6 -  Write a function that takes a list of numbers as input 
-# # and returns a new list containing the square of each number.
+# 6 - Write a function that takes a list of 
+# numbers as input and returns a new list 
+# containing the square of each number.
 
 # def square_numbers(numbers):
 #     squared_numbers = []
@@ -83,8 +84,9 @@
 # squared_numbers = square_numbers(my_numbers)
 # print(squared_numbers)
 
-# # 7 -  Write a function that takes a list of strings as input
-# #  and returns a new list containing the lengths of each string.
+# # 7 -  Write a function that takes a list of 
+# strings as input and returns a new list 
+# containing the lengths of each string.
 
 # def string_lengths(strings):
 #     lengths = []
@@ -97,8 +99,9 @@
 # string_lengths_list = string_lengths(my_strings)
 # print(string_lengths_list)
 
-# # 8 -  Write a function that takes a list of numbers as input 
-# # and returns the sum of all the numbers that are greater than 10. 
+# # 8 -  Write a function that takes a list of 
+# numbers as input and returns the sum of all the
+# numbers that are greater than 10. 
 
 # def sum_numbers_greater_than_10(numbers):
 #     total = 0
