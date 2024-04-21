@@ -1,22 +1,22 @@
 # def-ით გააკეთე კალკულატორი, და შემდეგ გამოიძახე ყველა 
 # ფუნქცია ყველა განსხვავებული არგუმენტებით
 
-def mimateba(num1, num2):
+def addition(num1, num2):
     return num1 + num2
 
-print(mimateba(14, 7))
+print(addition(14, 7))
 
-def gamokleba(num1, num2):
+def deduction(num1, num2):
     return num1 - num2
 
-print(gamokleba(14, 7))
+print(deduction(14, 7))
 
-def gamravleba(num1, num2):
+def surroundings(num1, num2):
     return num1 * num2
 
-print(gamravleba(14, 7))
+print(surroundings(14, 7))
 
-def gayofa(num1, num2):
+def division(num1, num2):
     return num1 / num2
 
-print(gayofa(14, 7))
+print(division(14, 7))

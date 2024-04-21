@@ -1,3 +1,6 @@
+# upper - ადიდებს სტრინგს(ასოს)
+
+
 # for i in range(1, 100):
 #     if i % 2 == 0:
 #         print(str(i) + " luwia")
@@ -29,7 +32,9 @@
 
 
 
-#   გავაკეთოთ პროგრამა. მომხმარებელს სჰემოატანინეტ პაროლი იქამდე, სანამ არ დაემთხვევა რეგისტრირებულ პაროლს, while და if else გამოყენებით
+# გავაკეთოთ პროგრამა. მომხმარებელს სჰემოატანინეტ პაროლი იქამდე,
+#  სანამ არ დაემთხვევა რეგისტრირებულ პაროლს, while და if else 
+#   გამოყენებით
 
 
 # password = "tazo123"
@@ -336,18 +341,412 @@
 
 
 
-# nums = []
-
-# for i in range(21):
-#     nums.append(i)
-
-# print(nums)
-
-
-
 
 # word = [2,5,15]
 # print(min(word))
+
+# def numbers(nums):
+#     result = 0
+
+#     for i in nums:
+#         result = result + i
+#     return result
+
+# print(numbers([1,2,3]))
+
+
+# რომელი სიტყვაც მეტია 5-ზე დავმატოთ სიაში
+
+# def str_list(string):
+#     string_word = []
+
+#     for i in string:
+#         if len(i) > 5:
+#             string_word.append(i)
+
+#     return string_word
+
+# names = ["giorgi", "tazo", "temo", "nika", "luka", "sopiko", "ramazi"]
+# print(str_list(names))
+
+
+ 
+# def even_nambers(number):
+#     filter_nambers = []
+
+#     for i in number:
+#         if i % 2 == 0:
+#             filter_nambers.append(i)
+
+#     return filter_nambers
+
+# filter_even_numbers = [1,2,3,4,5,6,7,8,9,10]
+# print(even_nambers(filter_even_numbers))
+
+
+# max(max_number)
+
+# def number(num):
+#     return max(num)
+
+# num_list = [1,2,3,4,5,6,7,8,9,10]
+# print(number(num_list))
+
+
+
+# def number(num):
+#     max_number = num[0]
+
+#     for i in num:
+#         if max_number < i:
+#             max_number = i
+
+#     return max_number
+
+# num_list = [1,2,3,4,5,6,7,8,9,10]
+# print(number(num_list))
+
+
+
+# სტრინგების სია. გამოიტანოს სიიდან ისეთი სიტყვა რომელიც იწყება "ე"-ზე
+
+# def str_list(string):
+#     filter_string = []
+
+#     for i in string:
+#         if i[0] == "e":
+#             filter_string.append(i)
+#     return filter_string
+
+# str = ["nika", "elene", "luka", "elisabedi", "temo"]
+# print(str_list(str))
+
+
+
+
+# გვექნება რიცხვების სია. გამოვიტანთ ახალ სიაში ამ რიცხვების კვადრატს
+
+# def num_list(numbers):
+#     x2_num_list = []
+
+#     for i in numbers:
+#         x2_num_list.append(i ** 2)
+    
+#     return x2_num_list
+    
+# list = [1,2,3,4,5]
+# print(num_list(list))
+
+
+# რიცხვების სია. და გამოვიტანთ იმ რიცხვების ჯამს, რომლებიც არიან 
+# 10-ზე მეტი
+
+# def num_list(number):
+#     numbers_jami = 0
+
+#     for i in number:
+#         if i > 10:
+#             numbers_jami = numbers_jami + i
+
+#     return numbers_jami
+
+# num = [1,2,3,14,9,16,15,7]
+# print(num_list(num))
+
+
+# შექმენით პროგრამა სადაც მომხმარებელს შემოატანინებთ თუ რამდენ 
+#  რიცხვს შემოიტანენ სიაში. შემდეგ შექმენით სია, for ციკლში input-ით
+#   შეეკითხეთ რიცხვი და შეიტანე სიაში. ბოლოს დააბრუნეთ სიის ჯამი
+
+# def filter_evens(numbers):
+#     filtered_list = []
+
+#     for num in numbers:
+#         if num > 10 and num % 2 == 0:
+#             filtered_list.append(num)
+
+#     return filtered_list
+
+# def sum_of_numbers(numbers):
+#     sum = 0
+
+#     for i in numbers:
+#         sum = sum + i
+
+#     return sum
+
+# count = int(input("how many numbers do you want to input: "))
+
+# numbers = []
+
+# for i in range(count):
+#     number = int(input("enter number: "))
+#     numbers.append(number)
+
+# print(sum_of_numbers(numbers))
+# print(filter_evens(numbers))
+
+
+#  -    -   -   -   -   >
+
+# anbani = ["d", "a", "e", "g", "b", "f", "c"]
+
+# anbani_sort = sorted(anbani)
+
+# print(anbani_sort)
+
+
+# number = [4,2,7,9,4,78,3,5,1,8,9,22343,5]
+
+# number_srt = sorted(number)
+
+# print(number_srt)
+
+
+# a = ("h", "b", "a", "c", "f", "d", "e", "g")
+
+# x = sorted(a, reverse=True)
+
+# print(x)
+
+# -   -   -   -   -   -   ->
+
+
+# def user_name(name):
+#     for i in range(name):
+#         print("tazo")
+
+# user_name(3)
+# user_name(2)
+# user_name(7)
+
+
+
+# def numbers(num1, num2):
+#     return num1 * num2
+
+# print(numbers(5, 10))
+
+
+# x = [1,2,3,4,5]
+# x.append(7)
+# print(x)
+
+
+
+
+# my = ("my", "you", "then")
+
+# x = " ".join(my)
+
+# print(x)
+
+# მომხმარებელს შეეკითხეთ საწყისი და საბოლოო რიცხვები. ეს რიცხვები
+# გადაეცით ფუნქციას, for ციკლით სიაში შეინახეთ მათ შორის არსებული
+# რიცხვები. შემდეგ მოახდინეთ გაფილტვრა, ისევ for ციკლით განიხილეთ
+# თითოეული რიცხვი - თუ რიცხვი ლუწი იქნება, ახალ სიაში დაამატეთ
+# მისი მეორე ხარისხი, ხოლო თუ კენტი იქნება სიაში დაამატეთ მისი
+# კვადრატული ფესვი (0.5 ხარისხი).
+
+
+
+# def numbers(num1, num2):
+#     number_list = []
+#     filtered_nums = []
+    
+#     for i in range(num1, num2):
+#             number_list.append(i)
+
+#     print(number_list)
+
+#     for i in number_list:
+#         if i % 2 == 0:
+#                 filtered_nums.append(i ** 2)
+
+#         else:
+#               filtered_nums.append(i ** 0.5)
+
+#     return filtered_nums
+
+# num1 = int(input("enter a number 1:  "))
+# num2 = int(input("enter a number 2:  "))
+
+# result_list = numbers(num1, num2)
+# print(result_list)
+
+
+
+# number = [1,2,3,4,5,6,7]
+# print(range(len(number)))
+
+# შექმენით ფუნქცია, რომელსაც გადასცემთ მომხმარებლისგან მიღებულ
+# სახელსა და გვარს. შემდეგ ისინი დაამატეთ სიაში და დააბრუნეთ სია.
+
+#       <    - ?  - ?  - ?  -   >
+
+# შექმენით ფუნქცია, რომელსაც გადაეცემა 1-იდან 20-ის ჩათვლით 
+# რიცხვების სია. თქვენ უნდა დააბრუნოთ გაფილტრული სია, სადაც 
+# უკვე მარტო 4-ის ჯერადები იქნება.
+
+# def Multiples_of_4(namber):
+#     filtered_list = []
+
+#     for i in namber:
+#         if i % 4 == 0:
+#             filtered_list.append(i)
+
+#     return filtered_list
+
+# num = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+# print(Multiples_of_4(num))
+
+
+# შექმენით ფუნქცია, რომელსაც გადასცემთ მომხმარებლის გვარს. გვარის 
+# თითოეული ასო გადაიტანეთ ახალ სიაში. შემდეგ for ციკლის გამოყენებით
+# იმუშავეთ ამ სიაზე - მარტო ლუწ ინდექსებზე მყოფი ასოები დაამატეთ 
+# ახალ სიაში. საბოლოოდ დააბრუნეთ ეს სია. Bonus (არაა სავალდებულო):
+# ეს სია გარდაქმენით სთრინგად და ამ სახით დააბრუნეთ.
+
+# def even_indexes(lastname):
+#     char_list = []
+#     even_indexes_char = []
+
+#     for i in lastname:
+#         char_list.append(i)
+
+#     for i in range(len(char_list)):
+#         if i % 2 == 0:
+#             even_indexes_char.append(char_list[i])
+    
+#     print(even_indexes_char)
+
+# lastname = input("enter your lastname:  ")
+
+# even_indexes(lastname)
+
+
+
+# შექმენით ფუნქცია, რომელსაც გადაეცემა რიცხვების სია. თქვენ უნდა
+# დააბრუნოთ ამ სიის საშუალო არითმეტიკული ( ჯამი / სიგრძე )
+
+# def numbers(num1, num2, num3)
+
+# num1 = int(input("enter number 1:  "))
+# num2 = int(input("enter number 2:  "))
+# num3 = int(input("enter number 3:  "))
+
+# print(numbers / 3)
+
+
+
+# def opposite(number):
+#     return -1 * number
+
+# print(opposite(4))
+
+
+
+# b = "tazo, nika!"
+# print(b[0:2])
+
+# a = "tazo!"
+# print(a[0:2])
+
+# b = "nika!"
+# print(b[0:2])
+
+# print(a[0:2] + b[0:2])
+
+# b = "Hello, World!"
+# print(b[-4:-2])
+
+# a = "tazo abesadze."
+
+# print(a[-5:-1])
+
+
+# მოვძებნოთ ყველაზე პატარა ინტეჯერი სიაში
+
+# 1 ხერხი
+
+# def int_word(integer):
+#     word_list = integer[0]
+
+#     for i in integer:
+#         if word_list > i:
+#             word_list = i
+
+#     return word_list
+
+# num_list = [7,4,33,89,34,99,105,2668]
+# print(int_word(num_list))
+
+
+# 2 ხერხი
+
+# def int_word(integer):
+#     return min(integer)
+
+# int_list = [8,44,33,7,9,789]
+# print(int_word(int_list))
+
+
+
+# def no_space(x):
+#     return x.replace(" ","")
+
+# print(no_space("tazo abesaze"))
+
+
+# მოვაშოროთ სტრინგიდან სფეისები
+
+# def no_space(str):
+#     str_list = ""
+
+#     for i in str:
+#         if i != " ":
+#             str_list += i
+
+#     return str_list
+
+# list = "me var tazo abesadze"
+# print(no_space(list))
+
+
+
+# print(bool(5 == 5))
+
+
+
+# ფუნქცია რომელიც მიიღებს რიცხვების სიას და დააბრუნებს ამ რიცხვების
+# ჯამს
+
+# def number_list(number):
+#     sum_of_numbers = 0
+
+#     for i in number:
+#         sum_of_numbers += i 
+
+#     return sum_of_numbers
+
+# n_list = [1,2,3]
+# print(number_list(n_list))
+
+
+
+# print("a". upper())
+
+# name = "tazo"
+# print(name.upper())
+
+
+# upper - ადიდებს სტრინგს(ასოს)
+# name = "tazo"
+# print(name.upper())
+
+
+# split - გახლეჩვა
+# print("tazo abesadze".split(" "))
 
 
 
