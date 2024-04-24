@@ -607,35 +607,20 @@
 # ახალ სიაში. საბოლოოდ დააბრუნეთ ეს სია. Bonus (არაა სავალდებულო):
 # ეს სია გარდაქმენით სთრინგად და ამ სახით დააბრუნეთ.
 
-# def even_indexes(lastname):
-#     char_list = []
-#     even_indexes_char = []
+# def person_surname(surname):
+#     even_index_char = []
 
-#     for i in lastname:
-#         char_list.append(i)
-
-#     for i in range(len(char_list)):
+#     for i in range(len(surname)):
 #         if i % 2 == 0:
-#             even_indexes_char.append(char_list[i])
+#             even_index_char.append(surname[i])
     
-#     print(even_indexes_char)
+#     return " ".join(even_index_char)
 
-# lastname = input("enter your lastname:  ")
-
-# even_indexes(lastname)
-
-
+# surname = input("enter your surname: ")
+# print(person_surname(surname))
 
 # შექმენით ფუნქცია, რომელსაც გადაეცემა რიცხვების სია. თქვენ უნდა
 # დააბრუნოთ ამ სიის საშუალო არითმეტიკული ( ჯამი / სიგრძე )
-
-# def numbers(num1, num2, num3)
-
-# num1 = int(input("enter number 1:  "))
-# num2 = int(input("enter number 2:  "))
-# num3 = int(input("enter number 3:  "))
-
-# print(numbers / 3)
 
 
 
