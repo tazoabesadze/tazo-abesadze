@@ -735,3 +735,51 @@
 
 
 
+
+
+# def start_end_numbers(start_num, end_num):
+#     filtered_num = []
+    
+#     for i in range(start_num, end_num):
+#         if i % 2 == 0:
+#             filtered_num.append(i ** 2)
+#         else:
+#             filtered_num.append(i ** 0.5)
+
+#     return filtered_num
+
+# start_num = int(input("enter first number: "))
+# end_num = int(input("enter end number: "))
+
+# result_list = start_end_numbers(start_num, end_num)
+# print(result_list)
+
+
+
+# num = [1,2,3]
+# i = int(input("enter a number: "))
+# num.append(i)
+# print(num[-2])
+
+
+
+
+# x = []
+
+# for i in range(20, 40):
+#     x.append(i)
+#     print(i)
+
+
+
+
+# num1 = int(input("enter num 1:  "))
+# num2 = int(input("enter num 2:  "))
+
+# for i in range(num1, num2):
+#     if i % 5 == 0:
+#         print(i)
+
+
+
+
